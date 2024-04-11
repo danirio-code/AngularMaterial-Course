@@ -1,0 +1,12 @@
+table {
+  margin: 5rem auto;
+  width: 80%;
+}
+
+table img {
+  border-radius: 60px;
+}
+
+table button {
+  margin-right: 1rem;
+}

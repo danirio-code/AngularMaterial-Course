@@ -1,3 +1,15 @@
 .mat-grid-list {
   margin: 3rem;
 }
+
+.all-posts {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.all-posts a {
+  width: 15%;
+  font-size: larger;
+  padding: .5rem;
+}

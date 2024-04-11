@@ -8,7 +8,9 @@ import { MaterialDesignModule } from './material-design/material-design.module'
 import { LoginComponent } from './auth/login/login.component'
 import { BlogPageComponent } from './blog/blog-page/blog-page.component'
 import { SingleBlogComponent } from './blog/single-blog/single-blog.component'
-import { PostComponent } from './blog/post/post.component'
+import { PostComponent } from './blog/post/post.component';
+import { AdminBlogComponent } from './admin-blog/admin-blog.component';
+import { DeleteDialogComponent } from './admin-blog/delete-dialog/delete-dialog.component'
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { PostComponent } from './blog/post/post.component'
     BlogPageComponent,
     SingleBlogComponent,
     PostComponent,
+    AdminBlogComponent,
+    DeleteDialogComponent,
   ],
   imports: [
     BrowserModule,
