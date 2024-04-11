@@ -1,0 +1,22 @@
+.mat-card {
+  margin-top: 20vh;
+  width: 25vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-form-field {
+  margin-bottom: 1rem;
+  width: 80%
+}
+
+button {
+  padding: 5px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
