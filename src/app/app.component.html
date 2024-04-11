@@ -1,5 +1,15 @@
 <mat-toolbar color="primary" class="flex justify-content-between">
   <span>My App</span>
-  <a mat-raised-button color="accent" routerLink="login">Login</a>
+  <div class="buttons">
+    <mat-icon matBadge="15" matBadgeColor="warn">notifications</mat-icon>
+    <!-- Include text description of the icon's meaning for screen-readers -->
+    <span class="cdk-visually-hidden">
+      Example with a home icon with overlaid badge showing the number 15
+    </span>
+
+    <a mat-raised-button routerLink="blog">Blog</a>
+    <a mat-raised-button color="accent" routerLink="login">Login</a>
+  </div>
+ 
 </mat-toolbar>
 <router-outlet></router-outlet>

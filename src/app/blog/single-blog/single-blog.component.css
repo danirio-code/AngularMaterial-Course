@@ -1,0 +1,9 @@
+.mat-card {
+  margin: 1rem;
+  background-image: linear-gradient(to right, #673AB7 50%, #FFD740);
+  color: white;
+}
+
+.mat-card-subtitle {
+  color: white
+}

@@ -29,7 +29,7 @@
 
       <mat-divider></mat-divider>
 
-      <mat-card-actions>
+      <mat-card-actions align="end">
         <button (click)="login()" mat-raised-button color="primary">
           <mat-spinner *ngIf="isLoading" color="accent" diameter="35"></mat-spinner>
           <span *ngIf="!isLoading">Login</span>

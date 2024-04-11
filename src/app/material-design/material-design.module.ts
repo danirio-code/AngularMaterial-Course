@@ -7,6 +7,10 @@ import { MatInputModule } from '@angular/material/input'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatDividerModule } from '@angular/material/divider'
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
+import { MatGridListModule } from '@angular/material/grid-list'
+import { MatChipsModule } from '@angular/material/chips'
+import { MatBadgeModule } from '@angular/material/badge'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [],
@@ -21,6 +25,10 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
     MatFormFieldModule,
     MatDividerModule,
     MatProgressSpinnerModule,
+    MatGridListModule,
+    MatChipsModule,
+    MatBadgeModule,
+    MatIconModule,
   ],
 })
 export class MaterialDesignModule { }

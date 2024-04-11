@@ -1,0 +1,10 @@
+a {
+  padding: 0 25px 0 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
