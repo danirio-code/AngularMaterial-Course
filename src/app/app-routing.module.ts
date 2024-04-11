@@ -4,6 +4,7 @@ import { LoginComponent } from './auth/login/login.component'
 import { BlogPageComponent } from './blog/blog-page/blog-page.component'
 import { PostComponent } from './blog/post/post.component'
 import { AdminBlogComponent } from './admin-blog/admin-blog.component'
+import { HomeComponent } from './home/home.component'
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'admin/blog',
     component: AdminBlogComponent,
+  },
+  {
+    path: '',
+    component: HomeComponent,
   },
 ]
 
